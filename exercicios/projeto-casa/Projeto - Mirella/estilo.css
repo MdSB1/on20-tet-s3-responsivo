@@ -1,0 +1,148 @@
+.tudo{
+    font-family:'Lucida Sans';
+}
+
+.cabeçalho{
+    display: flex;
+      
+    background-size: cover;
+    padding: 5%;  
+    font-size: 200%;   
+    text-decoration: dotted;
+    text-align: left;
+    color:rgb(11, 24, 5);
+    font-style: italic;
+    max-width: 100%;
+    text-align: center;
+    border-width: 15ch; padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(./img/imagens/background.jpg);
+ 
+
+
+}
+
+.foto1{
+    border-radius:100%;
+
+}
+.introdução{
+    padding-top:  5%;
+}
+
+
+
+
+.criança{
+    padding: 2%;
+    height: inherit;
+
+
+
+}
+
+.imagens{
+        padding: 3%;
+    
+        display:ruby-base;
+        
+    
+}
+ 
+ .titulo, .subt1, .subt2, .subt3, .primeiro{
+    text-align: center;
+    color: #1a5e36;
+ }
+ .quem{
+    text-align: center;
+    color: #1a5e36;
+
+
+ }
+ .intro{
+    padding-top: 5%;
+    font-size: larger;
+    text-align: justify;
+ }
+ .quem, .introdução, .atriz, .Contribuiçao, .último{
+    padding: 2%;
+   font-size: larger;
+
+ }
+.aga3{
+    color: #1a5e36;
+}
+.form{
+    vertical-align: auto;
+    resize: vertical;
+    padding-bottom: 5%;
+}
+
+ 
+.nome, .email, .msg{
+    color: black;
+    padding-bottom: 2%;
+}
+
+ 
+ .rodape{ 
+    background-color: #b6df74;
+    text-align: center;
+    padding: 2%;
+
+ }
+    
+.fontes{
+    color: #1a5e36;
+
+
+} 
+.f2{
+    padding-bottom: 3%;
+}
+
+ .gif{
+    padding-left: 40%;
+ }
+
+ @media (min-width: 480px) {
+    .tudo{ align-items: center;
+        width: auto;
+        
+        
+    }
+    .cabeçalho{
+        font-size: small;
+        background-size: 1000px;
+        background-position: 2px;
+    }
+    
+
+    }
+    .imagens{
+        display: inline-block;
+        
+       
+    }
+    @media (min-width: 600px){
+        .tudo{ align-items: center;
+            width: auto;
+            
+            
+        }
+        .cabeçalho{
+            font-size: large;
+            background-size: 1000px;
+            background-position: 2px;
+        }
+        
+    
+        }
+        .imagens{
+            display: inline-block;
+            
+           
+        }
+    
+ 
